@@ -1,0 +1,24 @@
+{
+    "name" : "maciejkosiarski/monolog-factory-bundle",
+    "type": "symfony-bundle",
+    "description" : "Bundle to injection monolog loggers factory",
+    "authors" : [
+        {
+            "name": "Maciej Kosiarski"
+        }
+    ],
+    "license" : [
+        "MIT"
+    ],
+    "require": {
+        "php": "^7.2",
+        "symfony/dependency-injection": "^4.2",
+        "symfony/http-kernel": "^4.2",
+        "symfony/monolog-bundle": "^3.3"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "MaciejKosiarski\\MonologFactoryBundle\\" : "src/"
+        }
+    }
+}
