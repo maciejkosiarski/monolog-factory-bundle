@@ -1,7 +1,9 @@
 {
     "name" : "maciejkosiarski/monolog-factory-bundle",
     "type": "symfony-bundle",
-    "description" : "Bundle to injection monolog loggers factory",
+    "description" : "Bundle to injection monolog factory, allows to choose specific logger after injection",
+    "keywords": ["Symfony", "Monolog", "bundle", "logger", "factory"],
+    "homepage": "https://github.com/maciejkosiarski/monolog-factory-bundle",
     "authors" : [
         {
             "name": "Maciej Kosiarski"

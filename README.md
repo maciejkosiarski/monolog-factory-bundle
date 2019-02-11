@@ -43,6 +43,20 @@ return [
 
 ```
 
+Registered as services in `config/services.yaml` and configured to be autowired:
+
+```yaml
+// ...
+
+services:
+
+// ...
+
+    MaciejKosiarski\MonologFactoryBundle\Service\LoggerFactory:
+        autowire: true
+
+```
+
 In Controller:
 
 ```php
