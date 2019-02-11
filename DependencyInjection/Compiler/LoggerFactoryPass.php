@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace MaciejKosiarski\MonologFactoryBundle\Dependency\Compiler;
+namespace MaciejKosiarski\MonologFactoryBundle\DependencyInjection\Compiler;
 
 use MaciejKosiarski\MonologFactoryBundle\Service\LoggerFactory;
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
